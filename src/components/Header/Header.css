@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 64px 24px 80px;
+}
+
+.hero__inner {
+  max-width: 860px;
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.logoIcon {
+  width: 72px;
+  height: 72px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer h1 {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 1.6;
+  opacity: 0.92;
+  max-width: 800px;
+  margin: 0 auto;
+ 
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  max-width: 960px;
+  margin-top: 48px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: left;
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card--featured {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: white;
+}
+
+.card__icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2563eb;
+}
+
+.card--featured .card__icon {
+  color: white;
+}
+
+.card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #64748b;
+  margin: 0;
+}
+
+.card--featured h3,
+.card--featured p {
+  color: white;
+}
+
+.card--featured p {
+  opacity: 0.85;
+}
+
+
+.infoBox {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 28px 36px;
+  width: min(90%, 860px);
+  border-radius: 20px;
+}
+
+.infoBox p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+@media (max-width: 600px) {
+  .logoContainer h1 { font-size: 36px; }
+  .subtitle { font-size: 18px; padding-left: 40px; padding-right: 48px;}
+  .cards { grid-template-columns: 1fr; }
+  .infoBox { padding: 24px; }
+  .infoBox p { font-size: 14px; }
+  .hero {padding: 52px 24px 64px;}
+}
