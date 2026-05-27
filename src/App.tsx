@@ -8,21 +8,21 @@ import MeatlessMonday from "./sections/MeatlessMonday/MeatlessMonday";
 function App() {
   return (
     <div>
-  
-        <Header />
-   
-      <Impact/>
-      <Consumo/>
-      <MeatlessMonday/>
-      
-      <Ahorro/>
+
+      <Header />
+
+      <Impact />
+      <Consumo />
+      <MeatlessMonday />
+
+      <Ahorro />
 
 
-      <Razones/>
-      
+      <Razones />
+
     </div>
 
-    
+
   );
 }
 
