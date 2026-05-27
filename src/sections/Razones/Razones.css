@@ -65,6 +65,7 @@ body {
 
 .container-razones {
     background: linear-gradient(180deg, #e8f4fd 0%, #dde8f7 100%);
+
 }
 
 .container-razones-title p {
@@ -105,7 +106,7 @@ body {
     }
 
     .container-razones-title {
-        padding: 40px 16px 16px;
+        padding: 70px 16px 16px;
     }
 
     .title-razones {
