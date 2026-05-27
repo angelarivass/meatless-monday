@@ -1,13 +1,57 @@
-.razones-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 40px;
-  max-width: 900px;
-  margin: 0 auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container-razones-title{
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 64px 24px 32px;
+}
+
+.titles p {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: linear-gradient(180deg, #e9fef5 0%, #e8f4fd 100%);
+    padding-top: 36px;
+}
+
+.infoBox-ahorro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 64px 24px 32px;
+}
+
+.grid {
+    margin-bottom: 84px;
+}
+
+.razones-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-razones-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,9 +60,7 @@
     max-width: 800px;
     line-height: 1.6;
     opacity: 0.92;
-    max-width: 800px;
     margin: 0 auto;
- 
 }
 
 .container-razones {
@@ -26,17 +68,52 @@
 }
 
 .container-razones-title p {
-    font-size:larger;
+    font-size: 16px;
 }
 
-.title-razones{
+.title-razones {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
-  .razones-grid {
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
+    .titles {
+        padding: 40px 16px 24px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .titles p {
+        font-size: 15px;
+    }
+
+    .grid {
+        margin-bottom: 40px;
+    }
+
+    .infoBox-ahorro {
+        padding: 32px 16px 24px;
+    }
+
+    .razones-grid {
+        grid-template-columns: 1fr;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .container-razones-title {
+        padding: 40px 16px 16px;
+    }
+
+    .title-razones {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .container-razones-title p {
+        font-size: 15px;
+    }
 }

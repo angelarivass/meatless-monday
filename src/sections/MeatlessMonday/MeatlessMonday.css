@@ -1,26 +1,21 @@
 .grid-meatless {
-    /* background: linear-gradient(180deg, #e9fef5 0%, #e9fef5 100%); */
-      background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%);
-
+    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%);
 }
-
 
 .container-meatless {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 46px 24px 46px;
+    padding: 46px 24px;
     max-width: 800px;
     line-height: 1.6;
     opacity: 0.92;
-    max-width: 800px;
     margin: 0 auto;
-
 }
 
 .container-meatless p {
-    font-size: larger;
+    font-size: 16px;
     color: white;
 }
 
@@ -28,4 +23,19 @@
     font-size: 36px;
     margin-bottom: 20px;
     color: white;
+}
+
+@media (max-width: 600px) {
+    .container-meatless {
+        padding: 32px 16px;
+    }
+
+    .title-meatless {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .container-meatless p {
+        font-size: 15px;
+    }
 }

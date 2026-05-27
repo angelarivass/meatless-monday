@@ -44,7 +44,7 @@ const slides: CarouselSlide[] = [
     {
         image: cdmx,
         label: "México consume",
-        stat: "2,000,000",
+        stat: "2 mill.",
         statUnit: "de toneladas",
         statLabel: "de carne de res al año",
         description: "Eso equivale a 30.8 billones de litros de agua. Suficiente para abastecer a la Ciudad de México por más de 8 años.",
@@ -55,7 +55,7 @@ export default function Impact() {
     return (
         <div>
             <div className="titles">
-                <h1 className="title">El impacto real del consumo de carne</h1>
+                <h1 className="title">El impacto real de la carne</h1>
                 <p>Descubre cuánta agua se consume en la producción de carne:</p>
             </div>
 
