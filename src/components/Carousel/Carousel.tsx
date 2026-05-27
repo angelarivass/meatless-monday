@@ -14,13 +14,13 @@ export interface CarouselSlide {
 interface CarouselProps {
   slides: CarouselSlide[];
   autoPlayInterval?: number; 
-  color?: string;
+  color: string;
 }
 
 export default function Carousel({
   slides,
   autoPlayInterval = 0,
-  color = "#e00000",
+  color,
 }: CarouselProps) {
   const [current, setCurrent] = useState(0);
   const [animating, setAnimating] = useState(false);

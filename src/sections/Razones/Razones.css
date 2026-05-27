@@ -1,0 +1,42 @@
+.razones-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-razones-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 24px 16px;
+    max-width: 800px;
+    line-height: 1.6;
+    opacity: 0.92;
+    max-width: 800px;
+    margin: 0 auto;
+ 
+}
+
+.container-razones {
+    background: linear-gradient(180deg, #e8f4fd 0%, #dde8f7 100%);
+}
+
+.container-razones-title p {
+    font-size:larger;
+}
+
+.title-razones{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .razones-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}

@@ -31,7 +31,7 @@ const slides: CarouselSlide[]=[
     },
     {
         image: agua,
-        label: "Si 50 personas participan",
+        label: "Si 50 alumnos participan",
         stat: "8,000,000",
         statUnit: "litros",
         statLabel: "de agua ahorrados",
@@ -59,8 +59,8 @@ export default function Ahorro() {
             <Carousel slides={slides} color="#1d4ed8" autoPlayInterval={10000} />
         </div>
 
-        <div className=".infoBox-ahorro" style={{ width: "760px", margin: "0 auto" }}>
-            <MediaCard title="Imagina el impacto de toda una comunidad" text="Si participamos en Meatless Monday, podríamos ahorrar millones de litros de agua al año. ¡Tu decisión individual crea un cambio colectivo enorme!" background="white" border="green"/>
+        <div className=".infoBox-ahorro">
+            <MediaCard title="Imagina el impacto de todos los estudiantes" text="Si participamos en Meatless Monday, podríamos ahorrar millones de litros de agua al año. ¡Tu decisión individual crea un cambio colectivo enorme!" background="white" border="green"/>
         </div>
     </div>
     );

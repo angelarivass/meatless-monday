@@ -7,25 +7,52 @@
 body {
     font-family: "Nunito Sans", sans-serif;
 }
-.container-consumo{
+
+.container-consumo {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 36px 24px 90px;
+    padding: 36px 24px 0px;
     max-width: 800px;
     line-height: 1.6;
     opacity: 0.92;
     max-width: 800px;
     margin: 0 auto;
- 
+
+}
+
+.grid-consumo {
+    background: linear-gradient(180deg, #ffffff 0%, #e9fef5 100%);
 }
 
 .container-consumo p {
-    font-size:larger;
+    font-size: larger;
 }
 
-.title{
+.imagen {
+  display: block;
+  margin: 36px auto 0;
+  border-radius: 5%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  height: fit-content;
+}
+.imagen-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 120px;
+}
+
+.title {
     font-size: 36px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .imagen {
+    width: 80%;
+    border-radius: 12px;
+    margin: 20px auto 0;
+  }
 }

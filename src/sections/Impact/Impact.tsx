@@ -60,7 +60,7 @@ export default function Impact() {
             </div>
 
             <div className="grid"> 
-                <Carousel slides={slides} autoPlayInterval={10000} />
+                <Carousel color = "#e00000" slides={slides} autoPlayInterval={10000} />
             </div>
         </div>
     );
