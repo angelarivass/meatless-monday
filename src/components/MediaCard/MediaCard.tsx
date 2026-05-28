@@ -9,7 +9,7 @@ type MediaCardProps = {
 
 export default function MediaCard({ title, text, background, border }: MediaCardProps) {
   return (
-    <div className="card" style={{ background, border: `3px solid ${border}` }}>
+    <div className="media-card" style={{ background, border: `3px solid ${border}` }}>
 
       <h2>{title}</h2>
       <p>{text}</p>

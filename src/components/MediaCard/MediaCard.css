@@ -1,4 +1,4 @@
-.card {
+.media-card {
   width: 760px;
   height: 300px;
   border-radius: 25px;
@@ -14,39 +14,41 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
-.card:hover {
+.media-card:hover {
   transform: translateY(-5px);
 }
 
-.card h2 {
+.media-card h2 {
   font-size: 32px;
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
-.card p {
+.media-card p {
   font-size: 16px;
   line-height: 1.8;
   color: #333;
   max-width: 90%;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
-  .card {
+  .media-card {
     width: 100%;
     height: auto;
     padding: 24px 20px;
     border-radius: 16px;
   }
 
-  .card h2 {
+  .media-card h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
 
-  .card p {
+  .media-card p {
     font-size: 14px;
     max-width: 100%;
     line-height: 1.6;
+    
   }
 }

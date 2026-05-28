@@ -56,5 +56,9 @@ body {
         padding: 54px 24px 30px;
     }
 
+    .grid {
+        padding-bottom: 32px;
+    }
+
     
 }
