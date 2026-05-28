@@ -17,7 +17,7 @@
 .container-meatless p {
     font-size: 16px;
     color: white;
-    text-align: left;
+    text-align: justify;
 }
 
 .title-meatless {
@@ -39,5 +39,6 @@
     .container-meatless p {
         font-size: 15px;
         padding: 16px 36px;
+        text-align: left;
     }
 }
